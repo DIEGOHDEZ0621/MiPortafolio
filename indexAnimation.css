@@ -1,0 +1,10 @@
+button:hover{
+    background-color: darkgrey;
+}
+button:active{
+    background-color: #797979;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+}
+
