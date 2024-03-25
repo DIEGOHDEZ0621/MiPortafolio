@@ -4,13 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTO</title>
+    <link rel="stylesheet" href="./contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <header>
-        <h2>CONTACTO</h2>
+        <header>
+            <div id="cabecera">
+                <div id="logo">
+                    <img src="./logo.png" alt="">
+                </div>
+                <div id="titulo">
+                    <h1>BARUCH</h1>
+                    <h2>pan y café</h2>
+                </div>
+            </div>
+        </header>
     </header>
     <main>
-
+        <i><svg  id="menu" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+            <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+            </svg>
+        </i>
+        
+        <nav id="botonera">
+            
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./biografia.html">BIOGRAFIA</a></li>
+            <li><a href="./portafolio.html">PORTAFOLIO</a></li>
+        </nav>
+        <section>
+            <form action="" id="formulario">
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" name="" id="nombre" placeholder="Escriba su nombre">
+                <br>
+                <label for="correoE">Correo Electronico:</label>
+                <br>
+                <input type="email" name="" id="correoE" placeholder="Escriba su correo electronico">
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <br>
+                <textarea name="" id="mensaje" cols="35" rows="3"   placeholder="Escriba su consulta"></textarea>
+                <br>
+                <input type="submit" value="enviar" id="enviar" onclick="">
+            </form>
+        </section>
+        <section id="contacto">
+            <div>
+                <h2>CONTACTANOS</h2>
+                <ul>
+                    <li>Tarapaca 400, Iquique</li>
+                    <li>contacto@baruchpanycafe.cl</li>
+                    <li>+56 9 73497158</li>
+                </ul>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div>
+            <span>©Copyright 2024 - Todos los derechos reservados</span>
+        </div>
+    </footer>
 </body>
 </html>
